@@ -1,0 +1,22 @@
+body{ background:#ddd;}
+body,div,td{margin:0; padding:0; font-size:12px;}
+.board{width:459px; height:510px; background-image:url('../images/chinesechess_board.gif'); background-repeat:no-repeat; margin:0 auto; margin-top:25px}
+.board table{ width:100%;}
+.board table td{width:51px; height:51px;}
+.chess{ background:url('../images/chinesechess_corner.gif') no-repeat;}
+.red_shuai{ background-position:0 0}
+.red_shi{ background-position: -50px 0}
+.red_xiang{ background-position:-100px 0}
+.red_ma{background-position:-150px 0}
+.red_che{background-position:-200px 0}
+.red_pao{background-position:-250px 0}
+.red_bing{background-position:-300px 0}
+.black_shuai{ background-position:0 -50px}
+.black_shi{ background-position: -50px -50px}
+.black_xiang{ background-position:-100px -50px}
+.black_ma{background-position:-150px -50px}
+.black_che{background-position:-200px -50px}
+.black_pao{background-position:-250px -50px}
+.black_bing{background-position:-300px -50px}
+.selected{  background-position: 0 -100px; width:51px; height:51px; }
+.op{width:459px;  margin:0 auto;  margin-top: 8px;}
